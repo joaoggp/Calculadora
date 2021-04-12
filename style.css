@@ -1,0 +1,29 @@
+.btn{
+    font-family: Montserrat;
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap");
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    border: none;
+}
+.top h1{
+    font-family: Montserrat;
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap");
+    text-align: center;
+    color: rgb(0, 153, 94);
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+body{
+    background-size: 100%;
+    background: linear-gradient(to left, rgb(0, 128, 128), rgb(61, 112, 136), rgb(0, 255, 255));
+}

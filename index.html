@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel=stylesheet href="style.css">
+</head>
+<body>
+ <div class=top>
+    <h1></h1>
+    <p></p>
+ </div>
+<div class="btn">
+    <a href="index.html">
+    <input class="btn" type="button" name="" value="Fazer Outra Operação">
+    </a>
+</div>
+<div class=top>
+    <script>
+var value0 = parseFloat(prompt("Digite o Primeiro valor: "))
+var value2 = parseFloat(prompt("Digite o segundo valor: "))
+var operação = prompt("Digite 1 multiplicação, 2 divisão, 3 soma e 4 subtração")
+if (operação == 1) {
+    var resultado = (value0 * value2)
+    document.write('<h1>' + value0 + " x " + value2 + " = " + resultado)
+} else if (operação == 2) {
+    var resultado = (value0 / value2)
+    document.write('<h1>' + value0 + " / " + value2 + " = " + resultado)
+} else if (operação == 3) {
+    var resultado = (value0 + value2)
+    document.write('<h1>' + value0 + " + " + value2 + " = " + resultado)
+} else if (operação == 4) {
+    var resultado = (value0 - value2)
+    document.write('<h1>' + value0 + " - " + value2 + " = " + resultado)}
+  else {document.write('<h1>' + "Opção Inválida!" + "</h1>")
+}
+    </script>
+</div>
+</body>
+</html>
